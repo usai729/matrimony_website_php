@@ -1,0 +1,97 @@
+body {
+  margin: 0 auto;
+}
+nav {
+  background-color: rgb(222, 56, 84);
+}
+nav ul {
+  text-align: left;
+}
+nav .active {
+  font-weight: 600;
+  transition: 0.3s;
+}
+.sub {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 40px;
+}
+table {
+  padding: 10px;
+  margin: 10px;
+}
+table tr td {
+  color: gray;
+}
+.dp {
+  width: 20%;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.dp:hover {
+  width: 23%;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  transition: 0.5s;
+}
+.like,
+.show_profile {
+  border: none;
+  border-radius: 3px;
+  padding: 7px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.like {
+  color: rgb(222, 56, 84);
+  background-color: pink;
+  font-weight: bold;
+}
+.like:hover {
+  color: pink;
+  background-color: rgb(222, 56, 84);
+}
+.i_like {
+  color: rgb(222, 56, 84);
+}
+.show_profile {
+  background-color: gold;
+  font-weight: bold;
+}
+.filters {
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  padding: 9px;
+  display: flex;
+  justify-content: center;
+}
+.filters select,
+input {
+  padding: 5px;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+  margin: 0px 5px 0px 5px;
+  cursor: pointer;
+}
+.filters input {
+  width: 5%;
+}
+.filters #filter_icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+.filters button {
+  margin-left: 5px;
+}
+@media (max-width: 760px) {
+  .dp {
+    width: 55%;
+  }
+  .sub {
+    display: block;
+  }
+}

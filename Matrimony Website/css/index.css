@@ -1,0 +1,87 @@
+body {
+  color: #1f1e1e;
+  display: block;
+  justify-content: center;
+  background-size: contain;
+}
+.header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+h1 {
+  font-family: "Beau Rivage", cursive;
+}
+h4 {
+  font-family: "Grape Nuts", cursive;
+  word-spacing: 5px;
+}
+#alert,
+#alert_exists {
+  display: none;
+}
+.container {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: fit-content;
+  height: fit-content;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+select {
+  width: 70%;
+  text-align: center;
+}
+.select {
+  display: flex;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#login {
+  font-weight: bold;
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 13%;
+}
+@media (max-width: 770px) {
+  .container {
+    margin: 8px;
+    padding: 10px;
+  }
+  .main {
+    display: flex;
+    width: 99%;
+  }
+  input {
+    width: 98%;
+  }
+  select {
+    width: 45%;
+  }
+  img {
+    width: 40%;
+  }
+}
+/*
+shubhsaathi
+*/

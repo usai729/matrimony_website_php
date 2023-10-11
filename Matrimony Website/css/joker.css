@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+  /*background: linear-gradient(160deg, #e8dbfc, #f8f9d2);
+  background-color: #e96196;
+  background: linear-gradient(170deg, #e96196 0%, #ffffff 74%);
+
+  background-color: #f9c5d1;
+  background: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+
+  background-color: #fec84e;
+  background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);*/
+}
+input,
+select {
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: 2px solid gray;
+  transition: 0.4s;
+  margin-bottom: 13px;
+  width: 100%;
+}
+input:focus {
+  outline: none;
+  border: 1.5px solid gray;
+  transition: 0.4s;
+}
+button {
+  background-color: #f9c5d1;
+  background: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+  color: white;
+  transition: 0.5s;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.65;
+  display: none;
+}
+img {
+  width: 13%;
+}
+@media (max-width: 430px) {
+  body {
+    background-color: #e96196;
+    background-image: linear-gradient(130deg, #e96196 0%, #ffffff 74%);
+  }
+  input {
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    border-radius: 4px;
+  }
+}
+@media (max-width: 720px) {
+  svg {
+    display: none;
+  }
+}
+@media (max-width: 770px) {
+  img {
+    width: 40%;
+  }
+}

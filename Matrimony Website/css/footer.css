@@ -1,0 +1,46 @@
+html {
+  min-height: 100%;
+}
+.footer {
+  bottom: 0;
+  position: static;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: block;
+  border-top: 2px solid lightgray;
+}
+.subf1 {
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  color: gray;
+  text-decoration: none;
+}
+.bottom_1 a {
+  display: block;
+  margin: 10px;
+  text-align: center;
+}
+.bottom_2 a {
+  display: block;
+  margin: 10px;
+  text-align: center;
+}
+.bottom_3 a {
+  display: block;
+  margin: 10px;
+  text-align: center;
+}
+.subf2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  background-color: #dcdcdc;
+}
+.subf2 span,
+a {
+  margin: 5px;
+}

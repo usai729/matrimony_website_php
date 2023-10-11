@@ -1,0 +1,113 @@
+nav {
+  background-color: rgb(222, 56, 84);
+}
+nav a {
+  text-align: left;
+}
+nav .active {
+  font-weight: 600;
+  transition: 0.3s;
+}
+#dp {
+  width: 17%;
+  resize: both;
+  padding: 4px;
+  box-shadow: rgba(38, 101, 149, 0.3) 0px 1px 2px 0px,
+    rgba(38, 101, 149, 0.15) 0px 1px 3px 1px;
+  transition: 0.3s;
+}
+#dp:hover {
+  width: 20.5%;
+  transition: 0.3s;
+}
+table {
+  width: fit-content;
+}
+.sub {
+  box-shadow: rgba(38, 101, 149, 0.3) 0px 1px 2px 0px,
+    rgba(38, 101, 149, 0.15) 0px 1px 3px 1px;
+  margin: 10px;
+  display: flex;
+  padding: 15px;
+}
+.profile_pic {
+  display: flex;
+}
+#info_p1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.b {
+  font-weight: bold;
+}
+table {
+  margin: 10px;
+  padding: 10px;
+}
+.light {
+  color: gray;
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+#physical_details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+#edit_btn {
+  border: none;
+  background-color: transparent;
+  color: green;
+}
+#edit_btn:hover {
+  color: darkgreen;
+}
+#residence_na,
+#job_na {
+  border: 1px dashed gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+input,
+select {
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: 2px solid gray;
+  transition: 0.4s;
+  width: 100%;
+}
+input:focus {
+  outline: none;
+  border: 1.5px solid gray;
+  transition: 0.4s;
+}
+.select {
+  display: block;
+}
+@media (max-width: 950px) {
+  #dp {
+    width: 40%;
+  }
+}
+@media (max-width: 760px) {
+  #dp {
+    width: 65%;
+  }
+  #dp:hover {
+    width: 75%;
+    transition: 0.3s;
+  }
+  .sub {
+    width: 100%;
+    margin: 5px;
+    display: block;
+  }
+  .profile_pic {
+    display: block;
+  }
+}

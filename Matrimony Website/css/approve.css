@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+  background: white;
+  padding: 10px;
+  display: block;
+  align-items: flex-start;
+}
+.container {
+  width: 100%;
+  display: block;
+}
+img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.section {
+  display: flex;
+  border-bottom: 2px solid lightgray;
+  border-top: 2px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 13px;
+}
+.sub_section {
+  display: block;
+  margin: 5px;
+}
+button {
+  margin: 10px;
+}
